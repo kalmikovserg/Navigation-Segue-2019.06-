@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  YellowViewController.swift
 //  Navigation Segue
 //
 //  Created by Сергей Калмыков on 6/23/19.
@@ -8,13 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class YellowViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        print("viewDidLoad yellow controller")
     }
-
-
+    
+    deinit {
+        print("yellow controller deinit")
+    }
+    
 }
-
